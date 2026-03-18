@@ -646,7 +646,7 @@ nodes {
   id: "property_saver_slots"
   parent: "root"
   inherit_alpha: true
-  template: "/saver/properties_panel/property_saver_slots.gui"
+  template: "/widget/debug_page_saver/properties_panel/property_saver_slots.gui"
   enabled: false
 }
 nodes {
@@ -977,24 +977,6 @@ nodes {
 }
 nodes {
   type: TYPE_BOX
-  id: "memory_panel/mini_graph/content"
-  parent: "memory_panel/mini_graph/root"
-  template_node_child: true
-}
-nodes {
-  type: TYPE_BOX
-  id: "memory_panel/mini_graph/prefab_line"
-  parent: "memory_panel/mini_graph/content"
-  template_node_child: true
-}
-nodes {
-  type: TYPE_BOX
-  id: "memory_panel/mini_graph/color_low"
-  parent: "memory_panel/mini_graph/content"
-  template_node_child: true
-}
-nodes {
-  type: TYPE_BOX
   id: "memory_panel/content"
   parent: "memory_panel/root"
   template_node_child: true
@@ -1078,24 +1060,6 @@ nodes {
   type: TYPE_BOX
   id: "fps_panel/mini_graph/icon_drag"
   parent: "fps_panel/mini_graph/header"
-  template_node_child: true
-}
-nodes {
-  type: TYPE_BOX
-  id: "fps_panel/mini_graph/content"
-  parent: "fps_panel/mini_graph/root"
-  template_node_child: true
-}
-nodes {
-  type: TYPE_BOX
-  id: "fps_panel/mini_graph/prefab_line"
-  parent: "fps_panel/mini_graph/content"
-  template_node_child: true
-}
-nodes {
-  type: TYPE_BOX
-  id: "fps_panel/mini_graph/color_low"
-  parent: "fps_panel/mini_graph/content"
   template_node_child: true
 }
 nodes {
